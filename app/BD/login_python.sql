@@ -45,7 +45,7 @@ CREATE TABLE `login_python` (
 --
 
 INSERT INTO `login_python` (`id`, `tipo_user`, `nombre`, `apellido`, `email`, `password`, `sexo`, `pais`, `create_at`, `te_gusta_la_programacion`) VALUES
-(2, 1, 'Urian Viera', 'Viera Parra', 'desarrollo@gmail.com', 'sha256$rNCs0EiH36AogNa3$c8b59ab82bdd53643143ad04d80767e7c21157fcf035ee4022e8eba70a7c5003', 'Masculino', 'Venezuela (Bolivarian Republic of)', '2022-9-3', 'Si'),
+(2, 1, 'Edwin', 'Escorcia Caballero', 'edwin@gmail.com', 'sha256$rNCs0EiH36AogNa3$c8b59ab82bdd53643143ad04d80767e7c21157fcf035ee4022e8eba70a7c5003', 'Masculino', 'Venezuela (Bolivarian Republic of)', '2022-9-3', 'Si'),
 (3, 2, 'Brenda', 'Viera', 'brenda@gmail.com', 'sha256$7jaYfYrtIWJngvFv$9dda11aea048705442096b09eabf54808fb2db537aaff3da48f2fe2b38834e29', 'Femenino', 'Colombia', '2022-9-4', 'Si');
 
 --
