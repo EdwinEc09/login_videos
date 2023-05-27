@@ -59,7 +59,7 @@ def registerUser():
     conexion_MySQLdb = connectionBD()
     if request.method == 'POST':
         tipo_user                   =2
-        nombre                      = request.form['nombre']
+        nombre                      = request.form['nombre']   
         apellido                    = request.form['apellido']
         email                       = request.form['email']
         password                    = request.form['password']
