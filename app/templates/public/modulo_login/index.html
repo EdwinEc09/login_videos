@@ -1,5 +1,5 @@
 {% extends 'public/modulo_login/base_login.html' %}
-{% block title %}Login | Urian{% endblock %}
+{% block title %}Login | Edwin{% endblock %}
 
 {% block body %}
 
@@ -12,6 +12,8 @@
         <a href="{{ url_for('inicio') }}">
             <img src="{{url_for('static', filename ='assets/imgs/logo.png') }}" alt="Logo" class="logoLogin">
         </a>
+
+         <!---manda al logins-->
     </div>
       {% include 'public/modulo_login/login.html' %}
     </div>
